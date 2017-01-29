@@ -1,0 +1,12 @@
+default	    #fe4918   rgba(254, 73, 24)
+green	    #2ac17d   rgba(42, 193, 125)
+yellow      #feca16   rgba(254, 202, 22)
+dark-blue   #166b93   rgba(22, 107, 147)	
+purple      #c81056   rgba(200, 16, 86) 
+brown       #ab8c5b   rgba(171, 140, 91)
+sky-blue    #41a9c3   rgba(65, 169, 195)	
+lightgreen  #6cbd32   rgba(108, 189, 50)
+red         #d80018   rgba(216, 0, 24)
+orange      #e47911   rgba(228, 121, 17)
+
+
