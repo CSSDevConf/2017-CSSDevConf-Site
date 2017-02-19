@@ -61,6 +61,14 @@ body {
 	font-weight: 400;	
 }
 
+ul, li {
+	margin-bottom: 1em;
+}
+li {
+	list-style-type: disc;
+	margin-left: 1em;
+}
+
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
@@ -1342,9 +1350,16 @@ a:focus {
    11. PORTFOLIO
    ========================================================================== */   
    
+.portfolio-section ul, .portfolio-section li {
+	margin: 0;
+	padding: 0;
+}
+
+
 /*------------------------------------------*/
 /*	  Portfolio Item
 /*------------------------------------------*/ 
+
 
 .portfolio-items-list {
 	margin: 0;
