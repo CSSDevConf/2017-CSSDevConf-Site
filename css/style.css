@@ -1251,6 +1251,26 @@ a:focus {
    10. SPEAKERS
    ========================================================================== */  
 
+.speakers-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ .speakers-section li {
+    position: relative;
+    min-height: 1px;
+    padding-right: 1px;
+    padding-left: 0px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.speakers-section  p {
+	margin-right: 1em;
+}
+
 .img-block {
 	position: relative;
 	width: 100%;
