@@ -48,6 +48,17 @@ body {
   line-height: 24px;
   font-weight: 400; }
 
+ul, li {
+  margin-bottom: 1em; }
+
+li {
+  list-style-type: none;
+  /* margin-left: 1em; */ }
+
+.workshop-txt .workshop-txt-block ul li {
+  margin-left: 1em;
+  list-style-type: disc !important; }
+
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
@@ -747,24 +758,7 @@ a:focus {
   font-weight: 300;
   margin-bottom: 0; }
 
-/* ==========================================================================
-   06. ABOUT
-   ========================================================================== */
-.about-title h3 {
-  margin-bottom: 10px; }
-
-/*------------------------------------------*/
-/*	 COUNTDOWN ELEMENT
-/*------------------------------------------*/
-.countdown p {
-  margin-bottom: 5px; }
-
-#clock {
-  display: inline-block; }
-
-/*------------------------------------------*/
-/*	  Countdown Box
-/*------------------------------------------*/
+a
 #clock .cbox-1 {
   float: left;
   text-align: center;
@@ -1117,6 +1111,23 @@ a:focus {
 /* ==========================================================================
    10. SPEAKERS
    ========================================================================== */
+.speakers-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.speakers-section li {
+  position: relative;
+  min-height: 1px;
+  padding-right: 1px;
+  padding-left: 0px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.speakers-section p {
+  margin-right: 1em; }
+
 .img-block {
   position: relative;
   width: 100%;
@@ -1192,6 +1203,10 @@ a:focus {
 /* ==========================================================================
    11. PORTFOLIO
    ========================================================================== */
+.portfolio-section ul, .portfolio-section li {
+  margin: 0;
+  padding: 0; }
+
 /*------------------------------------------*/
 /*	  Portfolio Item
 /*------------------------------------------*/
@@ -2374,3 +2389,81 @@ a.share-ico.ico-delicious {
   line-height: 15px;
   font-weight: 300;
   margin-bottom: 20px; }
+
+/*------------------------------------------*/
+/*	  WORKSHOP TEXT
+/*------------------------------------------*/
+.workshop-txt-block ul li {
+  margin-left: 1em;
+  list-style-type: disc !important; }
+
+/*------------------------------------------*/
+/*	Workshop Box Icon
+/*------------------------------------------*/
+.abox-icon {
+  text-align: center;
+  float: left; }
+
+.abox-icon i {
+  width: 20px;
+  height: 20px;
+  color: #fe4918;
+  font-size: 18px;
+  line-height: 20px !important; }
+
+/*------------------------------------------*/
+/*	 Workshop Box Text
+/*------------------------------------------*/
+.abox-txt {
+  overflow: hidden;
+  padding-left: 5px; }
+
+.abox-txt p {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 0; }
+
+/*------------------------------------------*/
+/*	  WORKSHOP IMAGES
+/*------------------------------------------*/
+.workshop-image {
+  position: relative; }
+
+.workshop-image .hover-overlay {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative; }
+
+.workshop-image .hover-overlay img {
+  -webkit-transition: all 600ms;
+  transition: all 600ms; }
+
+/*------------------------------------------*/
+/*	  Overlay Background 
+/*------------------------------------------*/
+.about-image .item-overlay {
+  opacity: 0;
+  -moz-opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.75);
+  -webkit-transition: opacity 400ms ease-out;
+  transition: opacity 400ms ease-out; }
+
+/*------------------------------------------*/
+/*	  Image Hover Effect 
+/*------------------------------------------*/
+.workshop-image .hover-overlay:hover > img {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2); }
+
+.workshop-image .hover-overlay:hover .item-overlay {
+  opacity: 1;
+  -moz-opacity: 1; }
