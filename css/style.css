@@ -74,6 +74,15 @@ li {
 	list-style-type: disc !important;
 }
 
+/*.speaker img {
+	-webkit-filter: url(#duotone);
+	filter:  url(#duotone);
+}*/
+/*.speaker img:hover {
+	-webkit-filter: none;
+	filter: none;
+}*/
+
 
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
